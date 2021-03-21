@@ -57,8 +57,6 @@ console.log(x, y);
 let x, y;
 x = 1;
 y = 1;
-let x = 1;
-let y = 1;
 console.log(x, y);
 ```
 
