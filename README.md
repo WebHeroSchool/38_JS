@@ -21,23 +21,20 @@ x = 1;
 
  :wink::
  ```
- const log = () => {
+ const func = () => {
    console.log(x);
  }
- log(); // получим undefined
- log(); 
+ func(); // получим undefined
+ func(); 
  let x = 1;
- log(); // получим 1
- log();
+ func(); // получим 1
+ func();
  ```
  
  😠 :
  ```
- let x = 1;
- const log = () => {
-   console.log(x);
- }
- log();
+let a = 9;
+function func(){ return a}
  ```
 
 ## 3.Всегда инициализируйте переменные и константы наверху
