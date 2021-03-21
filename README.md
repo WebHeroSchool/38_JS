@@ -222,5 +222,6 @@ let result = obj[ propname ];  //  obj[ "a" ] то же, что и obj.a
 let obj = { a: 20, b: 30 };
 let propname = getPropName();  // возвращает "a" или "b"
 
+
 eval( "let result = obj." + propname );
 ```
